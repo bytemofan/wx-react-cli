@@ -29,7 +29,8 @@ module.exports = function (env) {
             },
             comments: false,
             sourceMap: true
-        })
+        }),
+        new webpack.optimize.DedupePlugin()
     ]
   })
 }

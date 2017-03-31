@@ -12,7 +12,7 @@ module.exports = function (env) {
         'react-hot-loader/patch',
         'webpack-dev-server/client?http://localhost:9000',
         'webpack/hot/only-dev-server',
-        path.join(rootPath,'src/main.js')
+        path.join(rootPath,'src/main.jsx')
     ],
     devServer:{
         host:'localhost',
