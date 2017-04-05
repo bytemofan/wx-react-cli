@@ -14,11 +14,11 @@
 - [x] 集成source-map
 - [x] 集成rem   
 - [x] 集成单元测试
-- [] ​集成1px解决方案
-- [] 集成react-router异步路由
-- [] 集成redux
-- [] 集成数据mock
-- [] 集成自动ftp部署到测试服务器
+- [ ] 集成1px解决方案
+- [ ] 集成react-router异步路由
+- [ ] 集成redux
+- [ ] 集成数据mock
+- [ ] 集成自动ftp部署到测试服务器
 
 
 ## 使用说明：
