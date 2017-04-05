@@ -41,10 +41,6 @@ module.exports = function (env) {
             'process.env': {
                 'NODE_ENV': JSON.stringify('dev')
             }
-        }),
-        new HtmlWebpackPlugin({
-            template: 'index.html',
-            inject: true
         })
     ]
   });

@@ -13,7 +13,7 @@
 - [x] 集成imagemin图片压缩
 - [x] 集成source-map
 - [x] 集成rem   
-- [] 集成单元测试
+- [x] 集成单元测试
 - [] ​集成1px解决方案
 - [] 集成react-router异步路由
 - [] 集成redux

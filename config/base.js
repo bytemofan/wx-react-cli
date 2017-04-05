@@ -135,13 +135,18 @@ module.exports = function() {
                         },{
                             loader:'image-webpack-loader',
                             options: {
-                                optimizationLevel: 7,
-                                interlaced: false,
+                                gifsicle: {
+                                  interlaced: false,
+                                },
+                                optipng: {
+                                  optimizationLevel: 7,
+                                },
                                 pngquant:{
                                     quality: "65-90", 
                                     speed: 4
-                                }, 
+                                },
                                 mozjpeg: {
+                                    progressive: true,
                                     quality: 65
                                 },
                                 svgo:{
