@@ -15,3 +15,7 @@ a{
 	color: #fff;
 	display: flex;
 }
+
+.child{
+	width: 200px;
+}

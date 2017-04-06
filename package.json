@@ -4,7 +4,9 @@
   "description": "weixin react template",
   "main": "index.html",
   "scripts": {
+    "start": "npm run dev",
     "dev": "cross-env NODE_ENV=dev webpack-dev-server --progress --profile --colors",
+    "test": "karma start",
     "prod": "cross-env NODE_ENV=prod webpack --watch --progress  --profile --colors"
   },
   "keywords": [
