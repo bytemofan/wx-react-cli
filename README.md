@@ -15,7 +15,6 @@
 - [x] 集成rem   
 - [x] 集成单元测试
 - [x] 集成数据mock
-- [ ] 集成1px解决方案
 - [ ] 集成自动ftp部署到测试服务器
 
 
@@ -33,7 +32,28 @@ $ npm install
 $ npm run dev
 ```
 
-### prod环境
+或者：
+```bash
+$ npm run start
+```
+
+### mock假数据
+
+```bash
+$ npm run mock
+```
+
+mock假数据配置方式，参考文件`mock/_mockserver.json`。
+
+### 运行测试
+
+```bash
+$ npm run test
+```
+
+单元测试写在`test/`文件夹下。
+
+### prod环境(打包，构建)
 
 ```bash
 $ npm run prod
