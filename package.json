@@ -5,6 +5,7 @@
   "main": "index.html",
   "scripts": {
     "start": "npm run dev",
+    "mock": "cd mock && puer -a _mockserver.js",
     "dev": "cross-env NODE_ENV=dev webpack-dev-server --progress --profile --colors",
     "test": "karma start",
     "prod": "cross-env NODE_ENV=prod webpack --watch --progress  --profile --colors"
@@ -53,6 +54,7 @@
     "mocha": "^3.2.0",
     "node-sass": "^4.5.2",
     "postcss-loader": "^1.3.3",
+    "puer-mock": "^1.2.0",
     "px2rem-loader": "^0.1.7",
     "react-addons-test-utils": "^15.4.2",
     "react-hot-loader": "^3.0.0-beta.6",
