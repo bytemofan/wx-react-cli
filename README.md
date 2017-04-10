@@ -59,3 +59,8 @@ $ npm run test
 $ npm run prod
 ```
 
+### ftp上传
+
+```bash
+$ npm run ftp
+```
