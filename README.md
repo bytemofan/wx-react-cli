@@ -1,6 +1,6 @@
 # react项目 初始化模板
 
-## 计划功能
+## 功能
 
 - [x] 使用webpack2.0 
 - [x] 集成webpack chunk
